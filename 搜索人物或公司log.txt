@@ -1,0 +1,111 @@
+Sheet0-17.xlsx 2024-03-14 15:08 
+Traceback (most recent call last):
+  File "F:\0\每月新上市公司\每月新上市公司\stock\搜索人物或公司.py", line 135, in <module>
+    zj = search_company(in_df, outdir.replace('.xlsx', '-上市公司匹配.xlsx'))
+         ^^^^^^^^^^^^^^
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 1187, in _pydevd_bundle.pydevd_cython_win32_311_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 627, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 1103, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 1065, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.do_wait_suspend
+  File "D:\ProgramFiles\JetBrains\PyCharm Community Edition 2023.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1184, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "D:\ProgramFiles\JetBrains\PyCharm Community Edition 2023.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1199, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+
+Sheet0-33.xlsx 2024-03-14 16:18 
+Traceback (most recent call last):
+  File "F:\0\每月新上市公司\每月新上市公司\stock\搜索人物或公司.py", line 129, in <module>
+    outdir = in_df_path.replace('.xlsx', f"结果/{fn}")
+             ^^^^^^^^^^
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 1187, in _pydevd_bundle.pydevd_cython_win32_311_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 627, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 937, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 928, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.do_wait_suspend
+  File "D:\ProgramFiles\JetBrains\PyCharm Community Edition 2023.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1184, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "D:\ProgramFiles\JetBrains\PyCharm Community Edition 2023.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1199, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+
+Sheet0-34.xlsx 2024-03-14 16:32 
+Traceback (most recent call last):
+  File "F:\0\每月新上市公司\每月新上市公司\stock\搜索人物或公司.py", line 132, in <module>
+    outdir = in_df_path.replace('.xlsx', f"结果/{fn}")
+             ^^^^^^^^^^
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 1187, in _pydevd_bundle.pydevd_cython_win32_311_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 627, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 937, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 928, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.do_wait_suspend
+  File "D:\ProgramFiles\JetBrains\PyCharm Community Edition 2023.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1184, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "D:\ProgramFiles\JetBrains\PyCharm Community Edition 2023.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1199, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+
+Sheet0-151.xlsx 2024-03-15 11:22 
+Traceback (most recent call last):
+  File "F:\0\每月新上市公司\每月新上市公司\stock\搜索人物或公司.py", line 142, in <module>
+    zj = search_company(in_df, outdir.replace('.xlsx', '-上市公司匹配.xlsx'))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\0\每月新上市公司\每月新上市公司\stock\搜索人物或公司.py", line 58, in search_company
+    mada = len(list(filter(checkname, mtc.公司名称.to_list()))) > 0
+           ^^^^^
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 1187, in _pydevd_bundle.pydevd_cython_win32_311_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 627, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 937, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 928, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.do_wait_suspend
+  File "D:\ProgramFiles\JetBrains\PyCharm Community Edition 2023.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1184, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "D:\ProgramFiles\JetBrains\PyCharm Community Edition 2023.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1199, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+
+Sheet0-151.xlsx 2024-03-15 11:32 
+Traceback (most recent call last):
+  File "F:\0\每月新上市公司\每月新上市公司\stock\搜索人物或公司.py", line 142, in <module>
+    zj = search_company(in_df, outdir.replace('.xlsx', '-上市公司匹配.xlsx'))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\0\每月新上市公司\每月新上市公司\stock\搜索人物或公司.py", line 59, in search_company
+    if len(mtc) > 1:
+       ^^^
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 1187, in _pydevd_bundle.pydevd_cython_win32_311_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 627, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 1103, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 1065, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.do_wait_suspend
+  File "D:\ProgramFiles\JetBrains\PyCharm Community Edition 2023.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1184, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "D:\ProgramFiles\JetBrains\PyCharm Community Edition 2023.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1199, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+
+Sheet0-151.xlsx 2024-03-15 11:52 
+Traceback (most recent call last):
+  File "F:\0\每月新上市公司\每月新上市公司\stock\搜索人物或公司.py", line 143, in <module>
+    zj = search_company(in_df, outdir.replace('.xlsx', '-上市公司匹配.xlsx'))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\0\每月新上市公司\每月新上市公司\stock\搜索人物或公司.py", line 42, in search_company
+    mada = len(mtc) > 0 #等待继续精确匹配
+           ^^^^
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 1187, in _pydevd_bundle.pydevd_cython_win32_311_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 627, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 937, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 928, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_311_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.do_wait_suspend
+  File "D:\ProgramFiles\JetBrains\PyCharm Community Edition 2023.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1184, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "D:\ProgramFiles\JetBrains\PyCharm Community Edition 2023.3.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1199, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+
